@@ -1,4 +1,5 @@
-export function match(str1, str2){
-    if(str1.toUpperCase() === str2.toUpperCase()) return true;
-    return false;
+export function countDown(startNumber) {
+	for (let i = startNumber; i >= 0; --i) {
+  	return i;
+  } 
 }
